@@ -49,7 +49,8 @@
 | Basic and Safely Managed Drinking Water Services  | -*             | -*          | https://apps.who.int/gho/data/node.main.WSHWATER?lang=en          |
 | Handwashing with Soap                             | 198            | 64          | https://apps.who.int/gho/data/node.main.WSHHYGIENE?lang=en        |
 | Open Defecation                                   | 198            | 64          | https://apps.who.int/gho/data/node.main.WSHOPENDEFECATION?lang=en |
-| Median Availability of Selected Generic Medicines | 39             | 3           | https://apps.who.int/gho/data/node.main.488?lang=en               |
+| Median Availability of Selected Generic Medicines | 39             | 3           | https://apps.who.int/gho/data/node.main.488?lang=en               |  
+
 *\*Some dataset servers are currently experiencing technical issues.*
 
 &nbsp;&nbsp;&nbsp;&nbsp;Our datasets directly track the number of cholera infections and deaths, as well as rate the relative water quality and medicine access in countries across the world. These datasets will allow us to answer our research questions by directly comparing their values in different countries, thus allowing us to see how the relative changes in water quality and medicine access across countries are related to a change in the spread and mortality of cholera infections.   
