@@ -1,8 +1,14 @@
-# Title of your Project: Project Proposal 
+# Analysis of Cholera Cases
 
-**TODO**: Edit this file. Your project proposal goes here.
+**Code Name:  Cholera_Analytics**
 
-For what to do, see the [`../instructions/`](../instructions/) directory, specifically: 
+**Affiliation:  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington**
 
-* [Design Brief](../instructions/project-design-brief.pdf)
-* [Project Proposal Requirements](../instructions/p01-proposal-requirements.md)
+**Authors: Binh Kim (bkim15@uw.edu), Carter Case (ccase629@uw.edu), Marika Fong (mfong2@uw.edu)**
+
+**Date: Autumn 2022**
+
+## **Key Words**
+- Disease
+- Healthcare Access
+- Public Infrastructure
