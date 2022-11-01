@@ -76,8 +76,22 @@
 ## References: 
 
 
-(1) https://www.who.int/news-room/fact-sheets/detail/cholera “Cholera.” World Health Organization, World Health Organization, 30 Mar. 2022, https://www.who.int/news-room/fact-sheets/detail/cholera. 
+(1) “Cholera.” World Health Organization, World Health Organization, 30 Mar. 2022, https://www.who.int/news-room/fact-sheets/detail/cholera. 
 
-(2) https://www.cdc.gov/cholera/infection-sources.html “Sources of Infection & Risk Factors.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 13 Apr. 2022, https://www.cdc.gov/cholera/infection-sources.html. 
+(2) “Sources of Infection & Risk Factors.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, 13 Apr. 2022, https://www.cdc.gov/cholera/infection-sources.html. 
 
-(3) https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON415  “Cholera - Haiti.” World Health Organization, World Health Organization, 12 Oct. 2022, https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON415. 
+(3) “Cholera - Haiti.” World Health Organization, World Health Organization, 12 Oct. 2022, https://www.who.int/emergencies/disease-outbreak-news/item/2022-DON415. 
+
+(4) “Gho | by Category | Number of Reported Cases - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.175?lang=en.  
+
+(5) “Gho | by Category | Number of Reported Deaths - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.176?lang=en.  
+
+(6) “Gho | by Category | Basic and Safely Managed Sanitation Services - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.WSHSANITATION?lang=en.  
+
+(7) “Gho | by Category | Basic and Safely Managed Drinking Water Services - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.WSHWATER?lang=en.  
+
+(8) “Gho | by Category | Handwashing with SOAP - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.WSHHYGIENE?lang=en.  
+
+(9) “Gho | by Category | Open Defecation - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.WSHOPENDEFECATION?lang=en.  
+
+(10) “Gho | by Category | Median Availability of Selected Generic Medicines - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.488?lang=en. 
