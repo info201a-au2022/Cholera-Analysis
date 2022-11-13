@@ -1,8 +1,8 @@
 library("tidyverse")
 library("ggpubr")
 
-cases <- read.csv("data/choleracases.csv")
-deaths <- read.csv("data/choleradeaths.csv")
+cases <- read.csv("../data/choleracases.csv")
+deaths <- read.csv("../data/choleradeaths.csv")
 
 data <- cases %>%
   left_join(deaths, by = c("Country" = "Country", "Year" = "Year")) %>%
