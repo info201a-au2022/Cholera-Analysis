@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# Analysis of Cholera Cases
+
+**Code Name:  Cholera_Analytics**
+=======
 # Title of your Project: **Analysis of Cholera Cases**
 **Code Name**: Cholera_Analytics
 
@@ -95,3 +100,4 @@
 (9) “Gho | by Category | Open Defecation - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.WSHOPENDEFECATION?lang=en.  
 
 (10) “Gho | by Category | Median Availability of Selected Generic Medicines - Data by Country.” World Health Organization, World Health Organization, https://apps.who.int/gho/data/node.main.488?lang=en. 
+>>>>>>> 7634a019c478639ffd140bb291ccef912414bd86
