@@ -1,9 +1,9 @@
 library("tidyverse")
 
-cases <- read.csv("data/choleracases.csv")
-deaths <- read.csv("data/choleradeaths.csv")
-handwash <- read.csv("data/handwash.csv")
-defecation <- read.csv("data/opendefecation.csv")
+cases <- read.csv("../data/choleracases.csv")
+deaths <- read.csv("../data/choleradeaths.csv")
+handwash <- read.csv("../data/handwash.csv")
+defecation <- read.csv("../data/opendefecation.csv")
 
 fix_data <- function(data) {
 data <-
