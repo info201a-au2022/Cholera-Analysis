@@ -23,7 +23,8 @@ cases <- cases %>% rename(cases = Number.of.reported.cases.of.cholera)
 
 handwash <- fix_data(handwash)
 
-cases_handwashing_data <- left_join(cases, handwash, by = "Country" = "Country", "Year" = "Year") 
+cases_handwashing_data <- left_join(cases, handwash, by = "Country" = "Country", "Year" = "Year") %>% 
+  drop.na()
 
 cases_handwashing <- function(start, end) {
   cases_handwashing_data %>% 
