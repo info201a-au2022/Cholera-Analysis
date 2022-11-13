@@ -34,6 +34,8 @@ cases_handwashing <- function(start, end) {
   return()
 }
 
-cases_handwashing_plot <- ggplot(data = cases_handwashing, aes(x = cases, y = handwash, group = group) , size=0, alpha=0.9) +
-    title = "Number of Cholera Cases and Handwashing Percentages"
+cases_handwashing_plot <- ggplot(data = cases_handwashing, aes(x = cases, y = handwash) +
+                                   title = "Number of Cholera Cases and Handwashing Percentages" +
+                                   labs(x = "Cholera Cases", y = "Handwashing Population")
 cases_handwashing_plot
+                            
