@@ -36,4 +36,4 @@ cases_handwashing <- function(start, end) {
 
 ggplot(data = cases_handwashing(1000, 2020), aes(x = handwash, y = cases)) +
   geom_point()
-  title = "Number of Cholera Cases and Handwashing Percentages" +
+  title = "Number of Cholera Cases and Handwashing Percentages"
