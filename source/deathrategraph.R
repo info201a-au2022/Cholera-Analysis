@@ -1,5 +1,4 @@
 library("tidyverse")
-install.packages("ggpubr")
 library("ggpubr")
 
 cases <- read.csv("../data/choleracases.csv")
@@ -19,6 +18,7 @@ data_by_years <- function(start, end) {
     return()
   
 }
+
 
 graph_by_years <- function(start, end) {
   ggplot(data = data_by_years(start, end), aes(x = cases, y = deaths)) +

@@ -1,5 +1,4 @@
 library(tidyverse)
-install.packages("viridis")
 library(viridis)
 
 cases <- read.csv("../data/choleracases.csv")
@@ -34,7 +33,7 @@ cases_handwashing <- function(start, end) {
   return()
 }
 
-cases_handwashing_plot <- ggplot(data = cases_handwashing, aes(x = cases, y = handwash) +
+cases_handwashing_plot <- ggplot(data = cases_handwashing, aes(x = cases, y = handwash)) +
                                    title = "Number of Cholera Cases and Handwashing Percentages" +
                                    geom_col(x = "Cholera Cases", y = "Handwashing Population")
 cases_handwashing_plot

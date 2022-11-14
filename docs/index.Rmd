@@ -23,6 +23,10 @@ knitr::opts_chunk$set(echo = TRUE)
 plot(death_medicine_plot)
 ```
 
+```{r graph_by_years(1970, 2020), echo=FALSE}
+plot(graph_by_years(1970, 2020))
+```
+
 ### Example 2: Initialize a variable and then use it
 ```{r}
 # Example 1: This function was "sourced" above
