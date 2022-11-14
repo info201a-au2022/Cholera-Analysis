@@ -4,7 +4,10 @@
 source("../source/table.R")
 
 summary_info <- list()
-summary_info$num_observations <- nrow(my_dataframe)
-summary_info$some_max_value <- my_dataframe %>%
-  filter(some_var == max(some_var, na.rm = T)) %>%
-  select(some_label)
+summary_info$num_observations <- nrow(summary_table)
+summary_info$most_case_country <- summary_table %>%
+  filter(cases == max(cases, na.rm = T)) %>%
+  select(Country)
+summary_info$most_death_country <- summary_table %>%
+  filter(deaths == max(deaths, na.rm = T)) %>%
+  select(Country)
