@@ -1,9 +1,9 @@
 library(tidyverse)
+install.packages("viridis")
 library(viridis)
 
-cases <- read.csv("data/choleracases.csv")
-
-handwash <- read.csv("data/handwash.csv") 
+cases <- read.csv("../data/choleracases.csv")
+handwash <- read.csv("../data/handwash.csv") 
 
 fix_data <- function(data) {
   data <-

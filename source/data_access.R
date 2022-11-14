@@ -2,7 +2,9 @@
 #----------------------------------------------------------------------------#
 # These functions are used to access data sources ... 
 #----------------------------------------------------------------------------#
-data_access_test <- function (name="World!") {
-  t <- paste0("Hello: ", name)
-  return(t)
-}
+
+cases <- read.csv("../data/choleracases.csv")
+deaths <- read.csv("../data/choleradeaths.csv")
+handwash <- read.csv("../data/handwash.csv")
+defecation <- read.csv("../data/opendefecation.csv")
+medicine <- read.csv("../data/medianmedicines.csv")

@@ -1,16 +1,16 @@
 library(tidyverse)
 library(ggplot2)
-cholera_deaths <- read.csv("../data/choleradeaths.csv")
-median_medicine <- read.csv("../data/medianmedicines.csv")
+deaths <- read.csv("../data/choleradeaths.csv")
+medicine <- read.csv("../data/medianmedicines.csv")
 
 #Filtering cholera deaths from 2007-2013 to match medicine data
-country_deaths <- cholera_deaths %>%
+country_deaths <- deaths %>%
   filter(Year > 2006, Year < 2014) %>%
   group_by(Country) %>%
   summarise(total_deaths = sum(as.numeric(Number.of.reported.deaths.from.cholera)))
 
 #Dropping the first row of median data
-country_medicine <- median_medicine[-1,] %>%
+country_medicine <- medicine[-1,] %>%
   group_by(X) %>%
   rename(Country = X) %>%
   summarise(medicine_av = Median.availability.of.selected.generic.medicines.......Public)
@@ -31,7 +31,7 @@ death_plot
 #Plot of just availability of public medicine
 medicine_plot <- ggplot(data = deaths_medicine) +
   geom_col(mapping = aes(
-    x = median_availability_of_public_medicine,
+    x = medicine_av,
     y = Country,
     fill = "Total Percentage"
   ))

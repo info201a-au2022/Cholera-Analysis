@@ -1,4 +1,5 @@
 library("tidyverse")
+install.packages("ggpubr")
 library("ggpubr")
 
 cases <- read.csv("../data/choleracases.csv")
