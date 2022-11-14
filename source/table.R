@@ -46,3 +46,5 @@ aggregate_data <- function(start, end) {
               handwashing = round(mean(handwashing, na.rm = TRUE), 1),
               defecation = round(mean(defecation, na.rm = TRUE), 1))
 }
+
+summary_table <- aggregate_data(1970, 2020)
