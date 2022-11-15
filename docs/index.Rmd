@@ -5,7 +5,7 @@ date: "11/13/2022"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, warning='FALSE'}
 source("../source/Summary_information.R")
 source("../source/table.R")
 source("../source/cases_handwashing.R")
@@ -14,43 +14,34 @@ source("../source/deathsandmedicine.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Dynamic paragraph
+## Dynamic paragraph  
+Our Cholera analysis shows that the country with the most cases is `r most_case_country`, in which `r mc_handwash`% of people wash their hands and `r mc_defecation`% of people practice open defecation. The country with the most deaths is `r most_death_country`, in which `r md_handwash`% of people wash their hands and `r md_defecation`% of people practice open defecation. This observation also draws questions about equal healthcare, and how cholera is being treated. Among the top 5 of each variable are, in order; for deaths: `r top_5_mdc`, and for cases: `r top_5_mcc`.
+	
+## Charts  
+  We included this chart because we wanted to know and visualize the connection between the recorded cholera deaths and the availability of public medicine in countries that have records on their cholera information. This chart looks at the correlation between the two factors from the year 2007 to 2013. From this chart we can see that when a country has low accessibility to publicly available medicine, the total cholera caused deaths are very high. Although this chart is only looking at total deaths and medicine availability, not including other factors such as geographical location or advanced medicine accessibility, we can still get a better understanding of the correlation. 
+```{r death_medicine_plot, echo=FALSE, warning='FALSE'}
+death_medicine_plot
+```
+
+We were interested in calculating the death rate of cholera over the period where our data was collected, and seeing how the death rate may be different in different countries. The following graph plots, since 1970, the sum total number of cases vs. deaths due to cholera in each country for which there is data. Observing the graph, the death rate can be seen from the slope of the best fit line. It can also be seen that no country significantly breaks the pattern. There is variation, but there is no country with a very large number of cases and a very small number of deaths.
+
+```{r graph_by_years(1970, 2020), echo=FALSE, results='FALSE'}
+graph_by_years(1970, 2020)
+```
+
+  We were interested in exploring the relationship between hygiene and cholera cases which we attributed to handwashing rates in urban and rural areas of countries. We decided to map out places where there were high levels of cholera cases with relation to the percentage of populations with adequate hand washing stations at home. The handwashing dataset contains data from 2000-2020, allowing us to compare changes in cholera characteristics over time. Some of the limitations we came across in trying to compile this graph were the fact that there were some countries that didn’t have any statistics on handwashing which made it difficult to compare to other countries. 
+
+```{r cases_handwash_graph, echo=FALSE, results='FALSE'}
+cases_handwash_graph
+```
+
 
 ## Summary Information Table
 
-## Charts
-```{r death_medicine_plot, echo=FALSE}
-plot(death_medicine_plot)
+The following table contains the aggregated data used in the charts. The cases and deaths columns are the sum total of cholera cases and deaths in the countries, while handwashing and defecation are, on average, what percent of people in that country say that they wash their hands or practice open defecation. An entry of NaN means that no data was collected in that particular country.
+
+```{r summary_table, echo=FALSE}
+knitr::kable(summary_table)
 ```
 
-```{r graph_by_years(1970, 2020), echo=FALSE}
-plot(graph_by_years(1970, 2020))
-```
 
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
-```
-
-> `r msg` Hope you have a good day!! 
-
-## ABOUT THIS FILE: 
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
