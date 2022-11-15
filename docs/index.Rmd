@@ -44,4 +44,3 @@ The following table contains the aggregated data used in the charts. The cases a
 knitr::kable(summary_table)
 ```
 
-

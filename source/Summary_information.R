@@ -3,7 +3,6 @@
 
 source("../source/table.R")
 
-summary_info <- list()
 
 most_case_country <- summary_table %>%
   filter(cases == max(cases)) %>%
@@ -38,4 +37,3 @@ md_handwash <- summary_table %>%
 md_defecation <- summary_table %>%
   filter(Country == most_death_country) %>%
   pull(defecation)
-
