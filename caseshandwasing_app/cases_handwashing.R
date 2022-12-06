@@ -42,5 +42,5 @@ cases_handwashing <- function(start, end) {
 
 # scatter plot
 cases_handwash_graph <- ggplot(data = cases_handwashing(1000, 2020), aes(x = handwash, y = cases, size = deaths)) +
-  geom_point()
-title = "Number of Cholera Cases and Handwashing Percentages"
+  geom_point() +
+labs(title = "Number of Cholera Cases and Handwashing Percentages")

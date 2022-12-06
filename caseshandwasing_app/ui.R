@@ -15,33 +15,34 @@ handwashing_tab <-  tabPanel(
   "Cholera Cases vs Handwashing",
   fluidPage(theme = bs_theme(bootswatch = "minty")))
 
-
-## country selection sidebar
-country_sidebar <- sidebarPanel(
-  selectionInput(
-    input_Id = "Country",
-    label = "Country",
-    multiple = TRUE,
-),
-
-
-
 ## year selection slide bar
-sliderInput(inputId =  "year",
-            label = h3("Year"),
-            min = min(cases_df$year),
-            max = max(cases_df$year),
-            sep = "",
-            value = c(min(cases_df$year),max(cases_df$year))
-),
+year_select <- sliderInput(
+  "chw_years",
+  "Time",
+  min = min(cases_handwashing_data$Year),
+  max = max(cases_handwashing_data$Year),
+  value = c(min(cases_handwashing_data$Year), max(cases_handwashing_data$Year))
+)
+
+##  selection sidebar
+country_sidebar <- sidebarPanel(
+  selectInput(
+    inputId = "Country",
+    label = "Country",
+    choices = unique(cases_handwashing_data$Country),
+    multiple = TRUE,
+  ),
+  year_select
+)
+
 
 handwashing_plot <- mainPanel(
   plotlyOutput(outputId = "cases_handwashing_graph")
-),
+)
 
 
 ## tab for interactive graph 
-handwashing_tab <- tab_Panel(
+handwashing_tab <- tabPanel(
   "Cases v.s. Handwashing Graph",
   sidebarLayout(
     country_sidebar,
