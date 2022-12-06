@@ -10,7 +10,7 @@ cases_df <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-
 handwashing_df <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-af/main/data/handwash.csv", stringsAsFactors =  FALSE)
 
 handwashing_tab <-  tabPanel(
-  "Cholera Cases compared to Handwashing Statistics Globally",
+  "Cholera Cases vs Handwashing",
   fluidPage(theme = bs_theme(bootswatch = "minty")))
 
 
@@ -44,21 +44,15 @@ handwashing_tab <- tab_Panel(
   sidebarLayout(
     country_sidebar,
     handwashing_plot
-  ),
-  
-  ## Description of the graph
-  h1("Description"),
-  p("This graph shows ")
   )
 )
-
+  
 
 ui <- navbarPage(
   #select theme
   theme  = "minty",
   #home page title
   "Cholera Data Analysis",
-  country_sidebar,
-  
+  handwashing_tab
   
 )
