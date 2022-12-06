@@ -27,6 +27,7 @@ country_sidebar <- sidebarPanel(
     label = "Country",
     choices = unique(cases_handwashing_data$Country),
     multiple = TRUE,
+    selected = "Congo"
   ),
   year_select
 )
