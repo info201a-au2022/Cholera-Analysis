@@ -19,10 +19,13 @@ data_by_years <- function(start, end) {
   
 }
 
+
 graph_by_years <- function(start, end) {
   ggplot(data = data_by_years(start, end), aes(x = cases, y = deaths)) +
     geom_point() +
     geom_smooth(method=lm, se=FALSE) +
     stat_regline_equation()
 }
+
+death_rate_graph <- plot(graph_by_years(1970, 2020))
              
