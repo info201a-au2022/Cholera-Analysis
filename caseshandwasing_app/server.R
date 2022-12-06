@@ -14,7 +14,7 @@ server <- function(input, output){
     
     #making chart 
     handwashing_plot <- ggplot(data = plot_data, 
-                               aes(x = handwash, y = cases, size = deaths)) +
+                               aes(x = handwash, y = cases, size = deaths, color = Country)) +
       geom_point() +
      labs(title = "Number of Cholera Cases and Handwashing Percentages", x = "Population with Basic Handwashing Facilities at Hpme (%)", y = "Cholera Cases")
     
