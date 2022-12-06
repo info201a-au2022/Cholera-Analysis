@@ -48,7 +48,7 @@ deathrate_tab <- tabPanel(
       )
     ),
     mainPanel(
-      plotlyOutput(outputId = "deathrate_plot"),
+      plotlyOutput(outputId = "deathrate_graph"),
       p("caption goes here")
     )
   )
