@@ -5,6 +5,8 @@ library(knitr)
 library(rsconnect)
 library(shiny)
 
+source("cases_handwashing.R")
+
 
 cases_df <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-af/main/data/choleracases.csv", stringsAsFactors = FALSE)
 handwashing_df <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-af/main/data/handwash.csv", stringsAsFactors =  FALSE)
@@ -54,5 +56,4 @@ ui <- navbarPage(
   #home page title
   "Cholera Data Analysis",
   handwashing_tab
-  
 )
