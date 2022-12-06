@@ -8,10 +8,11 @@
 #
 
 library(shiny)
+library(plotly)
 
 # Defining UI
 shinyUI(fluidPage(
-
+  
     # Application title
     titlePanel("Deaths and Medicine"),
 
@@ -20,9 +21,11 @@ shinyUI(fluidPage(
         sidebarPanel(
           uiOutput("selectCountry")
         ),
-    # Main panel displaying chart
+    # Main panel displaying chart and summary paragraph
         mainPanel(
-          plotlyOutput("countryPlot")
+          plotlyOutput("countryPlot"),
+          h3("What does it mean?"),
+          p("While looking at this chart we are able to see the total deaths recorded over the span of 2007 to 2013, and the median percentage of generic medicine available for a selected country over the same span of years. From further analyzing the results, it can be seen that a country with a lower percentage of accessibility to medicine tends to have a higher overall death toll.")
         )
     )
 ))
