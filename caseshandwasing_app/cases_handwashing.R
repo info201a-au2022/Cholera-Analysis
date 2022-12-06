@@ -3,6 +3,7 @@ library(viridis)
 
 cases <- read.csv("../data/choleracases.csv")
 handwash <- read.csv("../data/handwash.csv") 
+deaths <- read.csv("../data/choleradeaths.csv")
 
 
 # tidying data
@@ -34,7 +35,7 @@ cases_handwashing <- function(start, end) {
     filter(start <= Year & Year < end) %>%
     group_by(Country) %>% 
     summarize(cases = sum(cases, na.rm = TRUE),
-              deaths = sum(deaths, na.rm = TRUE),
+              deaths = sum(as.integer(Number.of.reported.deaths.from.cholera), na.rm = TRUE),
               handwash = mean(name, na.rm = TRUE)) %>%
     return()
 }
