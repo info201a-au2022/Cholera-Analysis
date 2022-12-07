@@ -25,10 +25,10 @@ intro_panel <- tabPanel("Project Overview",
     p("Our research uses data from the World Health Organization’s ‘Global health observatory’ and includes global cholera data on WHO’s 194 member countries on cases, deaths, distrubution of cholera medical supplies, as well as data on handwashing and open defecation. It takes data as early as 1949 to 2017. GHO uses many methodologies to collect data, focusing on comparable values across time and countries. They aim to collect data as accurate as possible, allow the country to review and revise their own data, and they are constantly updated as more data becomes available."),
     
     h3("Authors"),
-    p("Binh Kim (bkim15@uw.edu), Art Major / Informatics minor"),
-    p("Brandon Vuong (vuongb@uw.edu), Biology/Informatics Major"),
+    p("Binh Kim (bkim15@uw.edu), Art Major / Informatics Minor"),
+    p("Brandon Vuong (vuongb@uw.edu), Biology / Informatics Major"),
     p("Carter Case (ccase629@uw.edu), Chemical Engineering Major"),
-    p("Marika Fong (mfong2@uw.edu) Public Health-Global Health Major/ Data Science minor")
+    p("Marika Fong (mfong2@uw.edu), Public Health-Global Health Major/ Data Science Minor")
   ), 
   
   mainPanel(
@@ -103,7 +103,7 @@ handwashing_tab <- tabPanel(
   
   ## graph description 
   h1("Description"),
-  p("This graph shows the disribution in the number of cholera cases globally from 2000-2018 with relation to handwashing statistics. The size of each bubble represents the number of deaths per country"),
+  p("This graph shows the disribution in the number of cholera cases globally from 2000-2018 with relation to the percentage of the population with basic handwashing facilities at home. The size of each bubble represents the number of deaths per country"),
   
   ## page footer
   p("INFO 201 | Autumn 2022 | Marika Fong, Carter Case, Bihn Kim, Brandon Vuong", align = "center"),
