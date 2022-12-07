@@ -113,7 +113,7 @@ server <- function(input, output) {
                              aes(x = handwash, y = cases, size = deaths, color = Country)) +
     scale_size(range = c(0.05, 10), name="Cholera Deaths per") +
     geom_point(alpha=0.5) +
-    labs(title = "Number of Cholera Cases and Handwashing Percentages", x = "Population with Basic Handwashing Facilities at Hpme (%)", y = "Cholera Cases")
+    labs(title = "Number of Cholera Cases and Handwashing Percentages", x = "Population with Basic Handwashing Facilities at Home (%)", y = "Cholera Cases")
   
   
   return(ggplotly(handwashing_plot))
