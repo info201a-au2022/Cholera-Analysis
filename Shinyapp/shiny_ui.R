@@ -25,10 +25,10 @@ intro_panel <- tabPanel("Project Overview",
     p("Our research uses data from the World Health Organization’s ‘Global health observatory’ and includes global cholera data on WHO’s 194 member countries on cases, deaths, distrubution of cholera medical supplies, as well as data on handwashing and open defecation. It takes data as early as 1949 to 2017. GHO uses many methodologies to collect data, focusing on comparable values across time and countries. They aim to collect data as accurate as possible, allow the country to review and revise their own data, and they are constantly updated as more data becomes available.")
     
     h3("Authors"),
-    p("Binh Kim (bkim15@uw.edu), Art Major / Informatics minor"),
-    p("Brandon Vuong (vuongb@uw.edu), Biology/Informatics Major"),
+    p("Binh Kim (bkim15@uw.edu), Art Major / Informatics Minor"),
+    p("Brandon Vuong (vuongb@uw.edu), Biology / Informatics Major"),
     p("Carter Case (ccase629@uw.edu), Chemical Engineering Major"),
-    p("Marika Fong (mfong2@uw.edu) Public Health-Global Health Major/ Data Science minor")
+    p("Marika Fong (mfong2@uw.edu), Public Health-Global Health Major/ Data Science Minor")
   ), 
   
   mainPanel(
