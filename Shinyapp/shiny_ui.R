@@ -114,6 +114,7 @@ deaths_medicine_tab <- tabPanel("Deaths and Medicine",
     ),
     mainPanel(
       plotlyOutput("countryPlot"),
+      p(em("*Some countries may not have a chart comparing the two factors due to a deficiency of surveys conducted by WHO(World Health Organization). Availability of results may vary for different countries."), style ="font-size:10px;"),
       h3("What does it mean?"),
       p("While looking at this chart we are able to see the total deaths recorded over the span of 2007 to 2013, and the median percentage of generic medicine available for a selected country over the same span of years. From further analyzing the results, it can be seen that a country with a lower percentage of accessibility to medicine tends to have a higher overall death toll.")
     )
