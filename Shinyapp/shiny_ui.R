@@ -103,7 +103,7 @@ handwashing_tab <- tabPanel(
   
   ## graph description 
   h1("Description"),
-  p("This graph shows the disribution in the number of cholera cases globally from 2000-2018 with relation to handwashing statistics. The size of each bubble represents the number of deaths per country"),
+  p("This graph shows the disribution in the number of cholera cases globally from 2000-2018 with relation to the percentage of the population with basic handwashing facilities at home. The size of each bubble represents the number of deaths per country"),
   
   ## page footer
   p("INFO 201 | Autumn 2022 | Marika Fong, Carter Case, Bihn Kim, Brandon Vuong", align = "center"),
