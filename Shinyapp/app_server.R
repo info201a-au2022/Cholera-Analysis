@@ -2,10 +2,10 @@ library("tidyverse")
 library("plotly")
 library("shiny")
 
-cases <- read.csv("../data/choleracases.csv")
-deaths <- read.csv("../data/choleradeaths.csv")
-handwash <- read.csv("../data/handwash.csv") 
-medicine <- read.csv("../data/medianmedicines.csv")
+cases <- read.csv("choleracases.csv")
+deaths <- read.csv("choleradeaths.csv")
+handwash <- read.csv("handwash.csv") 
+medicine <- read.csv("medianmedicines.csv")
 
 #--------------------------------------------------------------------
 #Deathrate

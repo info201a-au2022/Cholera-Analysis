@@ -1,0 +1,13 @@
+name: cholera
+title: cholera
+username:
+account: ccase629
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7834943
+bundleId: 6602804
+url: https://ccase629.shinyapps.io/cholera/
+when: 1670389769.40948
+lastSyncTime: 1670389769.40949
+asMultiple: FALSE
+asStatic: FALSE
