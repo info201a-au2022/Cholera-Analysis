@@ -20,23 +20,23 @@ Our main question is: “How do health disparities in inadequate access to water
 - **Public Infrastructure**
 
 ## Introduction: 
-Cholera is a bacterial disease that spreads through contaminated drinking water and kills up to an estimated 140 thousand people a year *(1)*. In our project, we will use data from the world health organization to determine the factors that lead to cases of cholera.  
+Cholera is a bacterial disease that spreads through contaminated drinking water and kills up to an estimated 140 thousand people a year. In our project, we will use data from the world health organization to determine the factors that lead to cases of cholera.  
 We will use data on global cholera cases and deaths, as well as water quality and access to medicine. We will use this data to determine if medicine or clean water is more effective at preventing deaths from cholera, what types of impacts on water quality are most impactful to cholera deaths, and if cholera cases are geographically dependent. We can use our analysis to determine what kinds of aid in what locations would be the most effective in preventing deaths due to cholera.
 
 ## Problem Domain:
 
 ### Background: 
-Cholera is a big running issue in places that do not have safe and clean water sources, as well as low sanitation. The amount of reported cases vary from country to country. We aim to create visualizations and data analysis that is not only accessible but also coherent to understand. With knowledge from our analysis we want to ask how we can help prevent future breakout cases *(1)*. 
+Cholera is a big running issue in places that do not have safe and clean water sources, as well as low sanitation. The amount of reported cases vary from country to country. We aim to create visualizations and data analysis that is not only accessible but also coherent to understand. With knowledge from our analysis we want to ask how we can help prevent future breakout cases. 
 
 ### Direct and Indirect Stakeholders: 
 The direct stakeholders in this project are those who are affected by cholera, or those who are at a high risk of contracting the infection. Since there are still a lot of places that struggle with access to clean water and sanitation, the risk of being directly affected by cholera is very serious. Areas such as slums, refugee camps, and displaced communities fall victim to the infection as clean water and sanitation may be hard to come by. Cholera affects both adults and children in these communities. Those who fall victim to this infection may experience severe vomiting and diarrhea. And at an extreme case, this can lead to death if not treated properly.  
-The indirect stakeholders in these situations are friends and family of the victims of cholera. These are the people who have their lives indirectly affected by the infection. Having their loved ones infected can cause serious stress and anxiety that may cause other health issues to arise, especially if treatments may be hard to come by. It may not even be a loved one but if many people in a community fall victim to cholera, the environment may make it hard for people to operate and function normally on their day to day basis *(2)*. 
+The indirect stakeholders in these situations are friends and family of the victims of cholera. These are the people who have their lives indirectly affected by the infection. Having their loved ones infected can cause serious stress and anxiety that may cause other health issues to arise, especially if treatments may be hard to come by. It may not even be a loved one but if many people in a community fall victim to cholera, the environment may make it hard for people to operate and function normally on their day to day basis. 
 
 ### Human values: 
 One point of human value that we consider is the value of empathy and consideration for others. Through our data and analysis we hope to garner more attention and empathy for those who are affected by cholera or those who have loved ones harmed from this infection. This value originates from wanting to help others who are in need. 
 
 ### Potential Benefits and Harms: 
-With the interventions of data and technology, there are many possible benefits that may result from this. For one, we can get a more clear observation of how the water quality of an area affects the cases of cholera recorded. We can also see how accessibility of treatments and medicine/vaccines plays a role in preventing cholera cases. Although there are harms as well, depending on who views the results of our findings. For example, people can come up with negative opinions or have negative connotations in relation to places that have a higher chance of contracting cholera *(3)*.
+With the interventions of data and technology, there are many possible benefits that may result from this. For one, we can get a more clear observation of how the water quality of an area affects the cases of cholera recorded. We can also see how accessibility of treatments and medicine/vaccines plays a role in preventing cholera cases. Although there are harms as well, depending on who views the results of our findings. For example, people can come up with negative opinions or have negative connotations in relation to places that have a higher chance of contracting cholera.
 
 
 ## Research Questions:
@@ -63,7 +63,7 @@ An implication for policymakers is how we can help pass bills or laws that reduc
 Policymakers can also pass policies that help get more clean water accessible for more people and communities across our country. Having clean water is one thing but having it available for those who need it is another topic. Possible government organizations can help with getting clean water more available for those who need it. 
 
 ## Limitations: 
-The largest limitation in our project is the incompleteness in our dataset. The widespreadness of cholera infection is thought to be underreported *(2)*. The poorest countries with the worst data reporting, which may also be facing the worst cholera infections, are likely to be ignored in our dataset.  
+The largest limitation in our project is the incompleteness in our dataset. The widespreadness of cholera infection is thought to be underreported. The poorest countries with the worst data reporting, which may also be facing the worst cholera infections, are likely to be ignored in our dataset.  
 Some of our datasets have also not been recently updated and only contain data up to 2017, making it less relevant to current cases and interventions, while others only have more recent data which will make it difficult to track historical trends.  
 From a technical perspective, we might run into issues trying to determine methods of processing datafiles and joining them in a way that takes into account our varying sample sizes. The data we are using is also not uniform in that each data includes sampling sizes and population that may vary making it difficult to visualize the prevalence of cholera based on location data.  
 
