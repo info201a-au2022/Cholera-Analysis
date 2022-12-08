@@ -24,15 +24,22 @@ intro_panel <- tabPanel("Project Overview",
     h3("Our datasets:"),
     p("Our research uses data from the World Health Organization’s ‘Global health observatory’ and includes global cholera data on WHO’s 194 member countries on cases, deaths, distrubution of cholera medical supplies, as well as data on handwashing and open defecation. It takes data as early as 1949 to 2017. GHO uses many methodologies to collect data, focusing on comparable values across time and countries. They aim to collect data as accurate as possible, allow the country to review and revise their own data, and they are constantly updated as more data becomes available."),
     
-    h3("Authors"),
+    h3("About Us"),
     p("Binh Kim (bkim15@uw.edu), Art Major / Informatics Minor"),
     p("Brandon Vuong (vuongb@uw.edu), Biology / Informatics Major"),
     p("Carter Case (ccase629@uw.edu), Chemical Engineering Major"),
-    p("Marika Fong (mfong2@uw.edu), Public Health-Global Health Major/ Data Science Minor")
+    p("Marika Fong (mfong2@uw.edu), Public Health-Global Health Major / Data Science Minor")
   ), 
   
   mainPanel(
-    img(src = "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201806/MIT-Living-Therapeutics_0.jpg")
+    img(src = "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201806/MIT-Living-Therapeutics_0.jpg"),
+    
+   ## page footer
+   br(),
+   hr(),
+  p("INFO 201 | Autumn 2022 | Marika Fong, Carter Case, Bihn Kim, Brandon Vuong", align = "center"),
+  p("Link to ", a(strong(code("INFO201-Final-Project")), href = "https://github.com/info201a-au2022/project-group-4-section-af"), align = "center")
+)
   )
 ))
 
@@ -54,7 +61,14 @@ deathrate_tab <- tabPanel(
     mainPanel(
       plotlyOutput(outputId = "deathrate_graph"),
       h3("Takeaways"),
-      p("While there is a general upward trend of the data, the large clusters suggest that the death rate of Cholera is quite uneven throughout the world. In addition, while the largest number of cholera cases over all time has been in India, modern data shows more cases of cholera appearing in African countries.")
+      p("While there is a general upward trend of the data, the large clusters suggest that the death rate of Cholera is quite uneven throughout the world. In addition, while the largest number of cholera cases over all time has been in India, modern data shows more cases of cholera appearing in African countries."),
+ 
+ ## page footer
+   br(),
+   hr(),
+  p("INFO 201 | Autumn 2022 | Marika Fong, Carter Case, Bihn Kim, Brandon Vuong", align = "center"),
+  p("Link to ", a(strong(code("INFO201-Final-Project")), href = "https://github.com/info201a-au2022/project-group-4-section-af"), align = "center")
+)
     )
   )
 )
@@ -105,7 +119,11 @@ handwashing_tab <- tabPanel(
   h1("Description"),
   p("This graph shows the disribution in the number of cholera cases globally from 2000-2018 with relation to the percentage of the population with basic handwashing facilities at home. The size of each bubble represents the number of deaths per country"),
   
+  
+  
   ## page footer
+   br(),
+   hr(),
   p("INFO 201 | Autumn 2022 | Marika Fong, Carter Case, Bihn Kim, Brandon Vuong", align = "center"),
   p("Link to ", a(strong(code("INFO201-Final-Project")), href = "https://github.com/info201a-au2022/project-group-4-section-af"), align = "center")
 )
@@ -122,7 +140,14 @@ deaths_medicine_tab <- tabPanel("Deaths and Medicine",
       plotlyOutput("countryPlot"),
       p(em("*Some countries may not have a chart comparing the two factors due to a deficiency of surveys conducted by WHO(World Health Organization). Availability of results may vary for different countries."), style ="font-size:10px;"),
       h3("What does it mean?"),
-      p("While looking at this chart we are able to see the total deaths recorded over the span of 2007 to 2013, and the median percentage of generic medicine available for a selected country over the same span of years. From further analyzing the results, it can be seen that a country with a lower percentage of accessibility to medicine tends to have a higher overall death toll.")
+      p("While looking at this chart we are able to see the total deaths recorded over the span of 2007 to 2013, and the median percentage of generic medicine available for a selected country over the same span of years. From further analyzing the results, it can be seen that a country with a lower percentage of accessibility to medicine tends to have a higher overall death toll."),
+   
+  ## page footer
+   br(),
+   hr(),
+  p("INFO 201 | Autumn 2022 | Marika Fong, Carter Case, Bihn Kim, Brandon Vuong", align = "center"),
+  p("Link to ", a(strong(code("INFO201-Final-Project")), href = "https://github.com/info201a-au2022/project-group-4-section-af"), align = "center")
+)
     )
   ))
 
@@ -132,7 +157,14 @@ final_tab <- tabPanel(
   "Findings",
   h1("Conclusion:"),
   p("Our data and visualizations lead us to believe that cholera remains the most prominent in the African continent. It also appears commonly in Southeast Asia and poverty or war-stricken countries like Haiti, the poorest country in the western hemisphere. Cholera was driven out due to industrialization and sanitation practices, and only requires simple rehydration therapy to treat it. We still see its appearance in poor countries with lack of sanitation, especially after wars, natural disasters, or poverty. Cholera outbreaks are a strong indicator of under-developed countries that haven’t industrialized or set-up sanitation practices, or are still reeling from the impact of a war or natural disaster."),
-  p("Our findings support that sanitation practices may be more efficient at preventing cholera outbreaks.")
+  p("Our findings support that sanitation practices may be more efficient at preventing cholera outbreaks."),
+  
+   ## page footer
+   br(),
+   hr(),
+  p("INFO 201 | Autumn 2022 | Marika Fong, Carter Case, Bihn Kim, Brandon Vuong", align = "center"),
+  p("Link to ", a(strong(code("INFO201-Final-Project")), href = "https://github.com/info201a-au2022/project-group-4-section-af"), align = "center")
+)
 )
 
 #-------------------------------------------------------------------------
