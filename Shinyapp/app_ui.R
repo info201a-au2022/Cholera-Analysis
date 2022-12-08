@@ -41,7 +41,7 @@ intro_panel <- tabPanel("Project Overview",
   p("Link to ", a(strong(code("INFO201-Final-Project")), href = "https://github.com/info201a-au2022/project-group-4-section-af"), align = "center")
 )
   )
-))
+)
 
 
 #---------------------------------------------------
@@ -71,7 +71,7 @@ deathrate_tab <- tabPanel(
 )
     )
   )
-)
+
 #------------------------------------------------------
 #Cases/Handwash
 
@@ -149,7 +149,7 @@ deaths_medicine_tab <- tabPanel("Deaths and Medicine",
   p("Link to ", a(strong(code("INFO201-Final-Project")), href = "https://github.com/info201a-au2022/project-group-4-section-af"), align = "center")
 )
     )
-  ))
+  )
 
 #-------------------------------------------------------------------------
 #Conclusion
@@ -165,7 +165,7 @@ final_tab <- tabPanel(
   p("INFO 201 | Autumn 2022 | Marika Fong, Carter Case, Bihn Kim, Brandon Vuong", align = "center"),
   p("Link to ", a(strong(code("INFO201-Final-Project")), href = "https://github.com/info201a-au2022/project-group-4-section-af"), align = "center")
 )
-)
+
 
 #-------------------------------------------------------------------------
 #UI
