@@ -40,9 +40,9 @@ With the interventions of data and technology, there are many possible benefits 
 
 
 ## Research Questions:
-- Is good water quality or access to antibiotics more important for protection against cholera? We will compare cholera cases in countries with both similar water quality and countries with similar access to medicine to see how cases varied with a change in the other variable. This will show what strategy is more effective at preventing cholera.
-- What impacts on water quality have the greatest impact on cholera cases and deaths? We will examine whether cholera is most dependent on handwashing, water sanitization, or defecation into drinking water. We can use this analysis to determine the best course of action if water quality is found to be the main cause of cholera.
-- Where do cholera cases tend to occur and is cholera based on location? We will examine the locations of cholera outbreaks over time to see if cholera tends to appear in certain locations. We can use this information to determine where would be the greatest beneficiary of aid for prevention of cholera.
+- What effect does access to medicine have on cholera? We will compare cholera cases in countries with relation to access to medicine to understand the relationship between these two variables. 
+- Is more handwashing or more access to medicine better at preventing  cholera? We will examine whether cholera is most dependent on handwashing or available medicine. We can use this analysis to determine the best course of action if water quality is found to be the main cause of cholera.
+- What areas are most impacted by cholera? We will examine the locations of cholera outbreaks over time to see if cholera tends to appear in certain locations. We can use this information to determine where would be the greatest beneficiary of aid for prevention of cholera.
 
 ## The Data:
 | Name                                              | # Observations | # Variables | URL                                                               |
