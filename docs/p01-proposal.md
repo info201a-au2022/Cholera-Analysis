@@ -7,7 +7,7 @@
 
 **Date:** Autumn 2022
 
-**Authors:** Binh Kim (bkim15@uw.edu), Carter Case (ccase629@uw.edu), Marika Fong (mfong2@uw.edu)
+**Authors:** Binh Kim (bkim15@uw.edu), Carter Case (ccase629@uw.edu), Marika Fong (mfong2@uw.edu), Brandon Vuong (vuongb@uw.edu)
 
 **Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 
